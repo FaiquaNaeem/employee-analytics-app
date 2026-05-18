@@ -41,7 +41,7 @@ Keep response concise and structured.`;
       {
         headers: {
           'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
-          'HTTP-Referer': 'http://localhost:5173',
+          'HTTP-Referer': 'https://employee-analytics-app.onrender.com',
           'Content-Type': 'application/json'
         }
       }
